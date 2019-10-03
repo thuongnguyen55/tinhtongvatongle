@@ -1,0 +1,16 @@
+﻿<Window x:Class="Baiky2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Baiky2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Kết Quả :" HorizontalAlignment="Left" Height="57" Margin="38,79,0,0" VerticalAlignment="Top" Width="152" RenderTransformOrigin="0.472,-0.203" FontSize="20"/>
+        <TextBox x:Name="ketqua" HorizontalAlignment="Left" Height="57" Margin="208,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" FontSize="20"/>
+        <Button x:Name="tbnTong" Content="Tổng" HorizontalAlignment="Left" Height="69" Margin="74,259,0,0" VerticalAlignment="Top" Width="150" IsCancel="True" FontSize="20" Click="TbnTong_Click"/>
+        <Button x:Name="tbnTongLe" Content="Tổng Lẻ" HorizontalAlignment="Left" Height="69" Margin="301,259,0,0" VerticalAlignment="Top" Width="150" FontSize="20" Click="TbnTongLe_Click"/>
+
+    </Grid>
+</Window>
